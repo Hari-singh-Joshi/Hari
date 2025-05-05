@@ -50,7 +50,7 @@ section {
 .certifications-section .card-text {
   min-height: 80px; /* Adjust based on average text length */
   font-size: 0.95rem;
-  color: #e91010;
+  color: white;
 }
 
 /* Stretch card-body to fill the rest of the card */
