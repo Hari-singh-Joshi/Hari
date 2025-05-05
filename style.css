@@ -19,6 +19,47 @@ section {
 .about-me-section {
   background-color: #fff;
 }
+.certifications-section .card-img-top {
+  width: 100%;           /* Makes the image fill the card width */
+  height: 180px;         /* Fixed height for all images */
+  object-fit: cover;     /* Ensures images fill the area without distortion */
+  border-bottom: 1px solid #ddd; /* Optional: adds a clean separator */
+}
+/* Uniform image sizing */
+.certifications-section .card-img-top {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Make all cards the same height */
+.certifications-section .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Consistent heading height */
+.certifications-section .card-title {
+  min-height: 48px; /* Adjust based on font size */
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Consistent paragraph/text height */
+.certifications-section .card-text {
+  min-height: 80px; /* Adjust based on average text length */
+  font-size: 0.95rem;
+  color: #e91010;
+}
+
+/* Stretch card-body to fill the rest of the card */
+.certifications-section .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 .about-me-section h1 {
   font-size: 2.5rem;
